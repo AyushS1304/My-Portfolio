@@ -41,6 +41,8 @@ import
   RefiNet  from "../assets/RefiNet.png";
 import
   TastyBites from "../assets/tastybites.png";
+import
+  ShadowCAM from "../assets/shadowcam.jpg";
 
 
 
@@ -261,7 +263,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: ShadowCAM,
     source_code_link: "https://github.com/AyushS1304/ShadowCAM.git",
   },
   {
