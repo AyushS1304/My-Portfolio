@@ -123,10 +123,10 @@ const technologies = [
     name: "MySQL",
     icon: MySQL,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
   {
     name: "git",
     icon: git,
