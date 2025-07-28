@@ -73,11 +73,11 @@ const services = [
     icon: web,
   },
   {
-    title: "Java Developer",
+    title: "ReactJS Developer",
     icon: mobile,
   },
   {
-    title: "Artificial Intelligence Engineer",
+    title: "JAVA Developer",
     icon: backend,
   },
   {
@@ -149,10 +149,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2024 - Aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learning and applying core concepts of Python, Machine Learning, and Deep Learning to real-world datasets through guided industry training.",
+      "Building an end-to-end house price prediction model ('Value Vision'), involving data preprocessing, model development, evaluation,and interpretation.",
+      "Gaining hands-on experience with Power BI to visualize trends and performance metrics, enabling clear and impactful data storytelling.",
     ],
   },
   {
@@ -162,10 +161,10 @@ const experiences = [
     iconBg: "#13103dff",
     date: "May 2025 - Aug 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and deploying multiple end-to-end Machine Learning models including classification, regression, and ensemble methods on real-world datasets.",
+      "Working on impactful projects such as Animal Classification, Liver Cirrhosis Detection, and Forest Cover Prediction, demonstrating practical ML pipeline implementation.",
+      "Applying data preprocessing, feature selection, model evaluation, and visualization techniques to optimize performance metrics like accuracy and F1-score.",
+      "Collaborating remotely with mentors and team members, receiving structured training in ML and DL, and adapting quickly to feedback in a professional project-based environment.",
     ],
   },
   {
@@ -175,10 +174,10 @@ const experiences = [
     iconBg: "#197cd2ff",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and implemented ReFineNet, a knowledge distillation-based image enhancement system using deep CNNs, trained on the Vimeo-90K dataset.",
+      "Built a Multi-Scale Attentive Fusion Network (MSAFN) as the teacher and a lightweight LightMSAFN student model to achieve real-time inference with high SSIM/PSNR.",
+      "Applied advanced training strategies including distillation loss, data augmentation, and multi-metric evaluation (SSIM, PSNR, MOS) for optimal performance.",
+      "Completed under Intel Unnati Industrial Training Program, collaborating in a 3-member team with structured research, experimentation, and results-driven development.",
     ],
   },
   // {
