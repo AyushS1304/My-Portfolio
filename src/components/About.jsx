@@ -7,6 +7,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+// Service card component with tilt effect
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt
     tiltMaxAngleX={45}
@@ -22,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => (
       <div className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
         <img
           src={icon}
-          alt='web-development'
+          alt={title}
           className='w-16 h-16 object-contain'
         />
 
@@ -34,6 +35,7 @@ const ServiceCard = ({ index, title, icon }) => (
   </Tilt>
 );
 
+// Main About section
 const About = () => {
   return (
     <>
@@ -46,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I’m a passionate technologist with experience as an Machine Learning Engineer, AI Specialist, Java Developer, and Data Scientist. I love building intelligent systems that solve real-world problems through code and data. From predictive models to backend architectures, I enjoy the full spectrum of tech creation.<br />
+        I’m a passionate technologist with experience as a Machine Learning Engineer, AI Specialist, Java Developer, and Data Scientist. I love building intelligent systems that solve real-world problems through code and data. From predictive models to backend architectures, I enjoy the full spectrum of tech creation.<br />
         When I’m not coding, I’m usually headshotting enemies in my favorite FPS games.<br />
         🎮 Fun fact: I’ve pulled all-nighters equally for model tuning and ranked matches.<br />
         ☕ I treat coffee as both a ritual and a debugging tool.<br />
@@ -63,4 +65,5 @@ const About = () => {
   );
 };
 
+// Export wrapped section
 export default SectionWrapper(About, "about");
